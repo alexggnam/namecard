@@ -1,6 +1,6 @@
 /* General Page Styling */
 body {
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     margin: 0;
     display: flex;
@@ -13,6 +13,7 @@ body {
 
 .container {
     display: inline-block;
+    text-align: center;
 }
 
 /* Keyword Styles */
@@ -93,6 +94,7 @@ body {
     font-size: 16px;
     color: gray; /* Gray and lowercase */
     text-transform: lowercase;
+    text-align: center;
 }
 
 /* Links Styling */
@@ -158,4 +160,3 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-
