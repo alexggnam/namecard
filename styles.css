@@ -159,13 +159,6 @@ body {
     margin-bottom: 10px; /* Adjusted space between "graduating in May 2025" and the clock */
 }
 
-/* Current Time */
-#current-time {
-    font-size: 14px;
-    margin-top: 10px;
-    color: #888;
-    transform: none; /* Remove tilt from the clock */
-}
 
 /* Align center */
 html, body {
