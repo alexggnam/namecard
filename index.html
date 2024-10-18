@@ -10,6 +10,10 @@
 <body>
 
     <div class="container">
+        
+        <!-- Short line of introduction -->
+        <p class="introduction">graduate student, MS in Information Systems</p>
+
         <!-- Keywords -->
         <div class="keywords">
             <span class="keyword-1">cybersecurity</span>
@@ -17,8 +21,6 @@
             <span class="keyword-3">IT audit</span>
         </div>
 
-        <!-- Short line of introduction -->
-        <p class="introduction">graduate student, MS in Information Systems</p>
 
         <!-- Certifications Box -->
         <div class="certifications-card">
@@ -41,7 +43,6 @@
         <div class="graduation-section">
             <p class="graduation">graduating in May 2025</p>
         </div>
-        <p id="current-time"></p>
 
         <!-- Connect with me on Section -->
         <p class="connect">connect with me via
@@ -50,20 +51,6 @@
             </span>
         </p>    
     </div>
-
-    <!-- Script to show current time with EST/EDT -->
-    <script>
-        function updateTime() {
-            const now = new Date();
-            const timeString = now.toLocaleTimeString('en-US', { timeZone: 'America/New_York' });
-            const options = { timeZoneName: 'short' };
-            const timeZone = new Intl.DateTimeFormat('en-US', options).format(now);
-            document.getElementById('current-time').textContent = timeString + " " + timeZone; // EDT/EST automatically
-        }
-
-        setInterval(updateTime, 1000); // Update time every second
-        updateTime(); // Initial call to display time immediately
-    </script>
 
 </body>
 </html>
