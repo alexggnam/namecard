@@ -59,7 +59,7 @@ body {
     background-color: #dce6fc;
     padding: 15px;
     border-radius: 10px;
-    width: 400px; /* Make the box longer */
+    width: 350px; /* Slightly longer */
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -80,16 +80,18 @@ body {
 .certifications-list {
     list-style-type: none;
     padding: 0;
+    margin: 0; /* Remove margins */
 }
 
 .certification-box {
     background-color: white;
-    padding: 8px;
+    padding: 8px 12px; /* Adjust padding */
     border-radius: 10px;
-    display: inline-block;
+    display: block; /* Ensure uniform box sizing */
     margin-top: 10px;
     font-size: 14px;
     color: black;
+    width: calc(100% - 24px); /* Ensure equal left and right margins */
 }
 
 /* Discover More */
@@ -160,7 +162,7 @@ body {
     margin-top: 30px;
     color: gray; /* Keep gray color */
     font-size: 16px;
-    transform: rotate(-3deg); /* Slight tilt */
+    transform: none; /* Remove the tilt */
 }
 
 #current-time {
