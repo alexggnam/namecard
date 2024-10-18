@@ -162,7 +162,7 @@ body {
     font-size: 14px;
     margin-top: 10px;
     color: #888;
-    transform: rotate(3deg); /* Slight tilt for fun design */
+    transform: rotate(3deg); /* Slight tilt */
 }
 
 /* Align center */
