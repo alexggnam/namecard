@@ -148,7 +148,7 @@ body {
 }
 
 .graduation-date {
-    font-size: 18px; /* Slightly smaller than before */
+    font-size: 16px; /* Slightly smaller than before */
     transform: rotate(5deg); /* Tilt graduation date in opposite direction */
 }
 
