@@ -54,40 +54,31 @@ body {
     font-size: 14px; /* Smaller font size */
 }
 
-/* Music Card Styling */
-.music-card {
-    background-color: #d7a96b;
+/* Certifications Box Styling */
+.certifications-card {
+    background-color: #dce6fc;
     padding: 15px;
     border-radius: 10px;
     width: 300px;
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    transform: rotate(-3deg); /* Tilting effect */
-    transition: transform 0.3s ease;
-}
-
-.music-card:hover {
-    transform: rotate(0deg); /* Straighten when hovered */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.music-card img {
-    border-radius: 10px;
-    width: 100px;
-    float: left;
-    margin-right: 15px;
-}
-
-.music-info {
     text-align: left;
 }
 
-.recently-played {
+.certifications-title {
     font-size: 12px;
-    color: #555;
+    color: gray;
+}
+
+.certifications-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certifications-list li {
+    font-size: 14px;
+    margin-top: 10px;
+    color: black;
 }
 
 /* Discover More */
@@ -99,7 +90,7 @@ body {
     text-align: center;
 }
 
-/* Links Styling with Cool Hover Effect */
+/* Links Styling */
 .links {
     margin-top: 10px;
     font-size: 20px;
@@ -110,7 +101,7 @@ body {
 .links a {
     text-decoration: none; /* Remove underline */
     color: black;
-    margin-right: 15px;
+    margin-right: 5px;
     position: relative;
     padding: 5px 0;
     transition: all 0.3s ease;
@@ -136,35 +127,35 @@ body {
     color: #007bff; /* Change text color on hover */
 }
 
-/* Connect with me on Styling (Same as Discover More) */
+/* Connect with me on Styling */
 .connect {
     margin-top: 20px;
     font-size: 16px;
-    color: darkgray; /* Gray and lowercase */
+    color: #333333; /* Darker gray for the whole line */
     text-transform: lowercase;
 }
 
-/* Contact Links (No Special Hover for LinkedIn) */
 .contact a {
-    color: black;
+    color: #333333; /* Dark gray for LinkedIn */
     text-decoration: none; /* Remove underline */
 }
 
 .contact a:hover {
-    color: #007bff; /* LinkedIn link hover color */
+    color: #333333; /* Keep LinkedIn color unchanged on hover */
 }
 
 /* Graduation Info */
 .graduation-section {
     margin-top: 30px;
-    color: black;
+    color: gray; /* Keep gray color */
     font-size: 16px;
-    transform: rotate(-5deg); /* Slight tilt in one direction */
+    transform: rotate(-3deg); /* Slight tilt in one direction */
 }
 
 .graduation-date {
-    font-size: 16px; /* Slightly smaller than before */
-    transform: rotate(5deg); /* Tilt graduation date in opposite direction */
+    font-size: 16px; /* Keep font size smaller */
+    transform: rotate(3deg); /* Tilt graduation date in opposite direction */
+    margin-top: -10px; /* Bring them closer if on separate lines */
 }
 
 #current-time {
