@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexis Namecard</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Keywords -->
+        <div class="keywords">
+            <span>cybersecurity</span>
+            <span>business analytics</span>
+            <span>IT audit</span>
+        </div>
+
+        <!-- Short line of introduction -->
+        <p class="introduction">graduate student, MS in Information Systems</p>
+
+        <!-- Recently Played Music Card -->
+        <a href="#" class="music-card">
+            <img src="music_cover.jpg" alt="Music Cover">
+            <div class="music-info">
+                <p>honor him</p>
+                <p><b>Hans Zimmer</b></p>
+                <p class="recently-played">recently played</p>
+            </div>
+        </a>
+
+        <!-- Discover more and Links -->
+        <p class="discover">discover more</p>
+        <div class="links">
+            <a href="#">projects</a> |
+            <a href="#">work experience</a> |
+            <a href="#">organizations</a> 
+        </div>
+
+        <!-- Graduation Info and Current Time -->
+        <p class="graduation">Graduating on / May 2025</p>
+        <p id="current-time"></p>
+    </div>
+
+    <!-- Script to show current time -->
+    <script>
+        function updateTime() {
+            var now = new Date();
+            var timeString = now.toLocaleTimeString();
+            document.getElementById('current-time').textContent = timeString;
+        }
+
+        setInterval(updateTime, 1000); // Update time every second
+        updateTime(); // Initial call to display time immediately
+    </script>
+
+</body>
+</html>
