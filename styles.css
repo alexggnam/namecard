@@ -26,8 +26,9 @@ body {
     margin: 5px;
     border-radius: 10px;
     display: inline-block;
-    font-weight: normal; /* Remove bold */
+    font-weight: normal;
     font-size: 14px; /* Smaller font size */
+    color: black; /* Set keywords to black */
 }
 
 /* Different angles and colors for each keyword */
@@ -57,10 +58,10 @@ body {
 /* Certifications Box Styling */
 .certifications-card {
     background-color: #dce6fc;
-    padding: 15px;
+    padding: 10px; /* Reduce padding */
     border-radius: 10px;
-    width: 350px; /* Slightly longer */
-    margin: 20px auto;
+    width: 300px; /* Shorten the box length */
+    margin: 20px auto 40px auto; /* Add more space between certifications and discover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
     transform: rotate(-3deg); /* Tilting effect */
@@ -85,13 +86,13 @@ body {
 
 .certification-box {
     background-color: white;
-    padding: 8px 12px; /* Adjust padding */
+    padding: 6px 10px; /* Reduce padding inside the white boxes */
     border-radius: 10px;
     display: block; /* Ensure uniform box sizing */
     margin-top: 10px;
     font-size: 14px;
     color: black;
-    width: calc(100% - 24px); /* Ensure equal left and right margins */
+    width: calc(100% - 20px); /* Equal left and right margins */
 }
 
 /* Discover More */
@@ -179,3 +180,4 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+
