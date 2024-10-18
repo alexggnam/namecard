@@ -59,10 +59,17 @@ body {
     background-color: #dce6fc;
     padding: 15px;
     border-radius: 10px;
-    width: 300px;
+    width: 400px; /* Make the box longer */
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
+    transform: rotate(-3deg); /* Tilting effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add hover effect */
+}
+
+.certifications-card:hover {
+    transform: rotate(0deg); /* Straighten when hovered */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .certifications-title {
@@ -75,9 +82,13 @@ body {
     padding: 0;
 }
 
-.certifications-list li {
-    font-size: 14px;
+.certification-box {
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    display: inline-block;
     margin-top: 10px;
+    font-size: 14px;
     color: black;
 }
 
@@ -149,13 +160,7 @@ body {
     margin-top: 30px;
     color: gray; /* Keep gray color */
     font-size: 16px;
-    transform: rotate(-3deg); /* Slight tilt in one direction */
-}
-
-.graduation-date {
-    font-size: 16px; /* Keep font size smaller */
-    transform: rotate(3deg); /* Tilt graduation date in opposite direction */
-    margin-top: -10px; /* Bring them closer if on separate lines */
+    transform: rotate(-3deg); /* Slight tilt */
 }
 
 #current-time {
