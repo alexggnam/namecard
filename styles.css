@@ -33,17 +33,17 @@ body {
 
 /* Different angles and colors for each keyword */
 .keyword-1 {
-    background-color: #ffd700;
+    background-color: #fbf598;
     transform: rotate(-6deg);
 }
 
 .keyword-2 {
-    background-color: #8fc1e3;
+    background-color: #cdc5fc;
     transform: rotate(3deg);
 }
 
 .keyword-3 {
-    background-color: #82e382;
+    background-color: #d4f1d4;
     transform: rotate(-3deg);
 }
 
