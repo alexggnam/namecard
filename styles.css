@@ -18,7 +18,7 @@ body {
 
 /* Keyword Styles */
 .keywords {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .keywords span {
@@ -34,16 +34,19 @@ body {
 .keyword-1 {
     background-color: #ffd700;
     transform: rotate(-10deg);
+    color: black;
 }
 
 .keyword-2 {
     background-color: #8fc1e3;
     transform: rotate(5deg);
+    color: black;
 }
 
 .keyword-3 {
     background-color: #82e382;
     transform: rotate(-5deg);
+    color: black;
 }
 
 /* Introduction text */
@@ -59,7 +62,7 @@ body {
     background-color: #d7a96b;
     padding: 15px;
     border-radius: 10px;
-    width: 300px;
+    width: 400px;
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: inline-block;
