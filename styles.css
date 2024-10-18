@@ -133,27 +133,17 @@ body {
     color: #007bff; /* Change text color on hover */
 }
 
-/* LinkedIn Hover Effect */
+/* Connect with me on Styling */
+.connect {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555555; /* Darker gray for the whole line */
+    text-transform: lowercase;
+}
+
 .contact a {
+    color: #555555; /* Same darker gray for LinkedIn */
     text-decoration: none; /* Remove underline */
-    color: black;
-    position: relative;
-    transition: all 0.3s ease;
-}
-
-.contact a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -2px;
-    left: 0;
-    background-color: #007bff;
-    transition: width 0.3s ease;
-}
-
-.contact a:hover::after {
-    width: 100%; /* Slide underline in on hover */
 }
 
 .contact a:hover {
@@ -164,9 +154,9 @@ body {
 /* Graduation Info */
 .graduation-section {
     margin-top: 30px;
-    color: gray; /* Keep gray color */
+    color: #555555; /* Darker gray for graduation */
     font-size: 16px;
-    margin-bottom: 30px; /* Add space between "graduating in May 2025" and clock */
+    margin-bottom: 10px; /* Adjusted space between "graduating in May 2025" and the clock */
 }
 
 /* Current Time */
