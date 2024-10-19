@@ -137,12 +137,12 @@ body {
 .connect {
     margin-top: 20px;
     font-size: 16px;
-    color: #555555; /* Darker gray for the whole line */
+    color: gray;
     text-transform: lowercase;
 }
 
 .contact a {
-    color: #555555; /* Same darker gray for LinkedIn */
+    color: gray; 
     text-decoration: none; /* Remove underline */
 }
 
