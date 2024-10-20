@@ -8,26 +8,27 @@ body {
     color: #333;
 }
 
+/* Container Styling */
 .container {
     width: 80%;
-    margin: 80px auto; /* Added more top margin to move everything down the page */
+    margin: 150px auto; /* Increased margin for more space at the top */
 }
 
 /* Title Section */
 h1 {
-    margin-top: 50px;
+    margin-top: 100px; /* More space between the top of the page and the title */
     font-size: 36px;
 }
 
-/* Add even more space between the title and the circles */
+/* Circle Navigation */
 .circle-navigation {
-    margin-top: 80px; /* Increased space */
+    margin-top: 120px; /* More space between the title and the circles */
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px; /* Larger gap between circles */
 }
 
-/* Circle Navigation */
+/* Circle Styling */
 .circle-navigation a {
     text-decoration: none; /* Remove underline from the anchor links */
 }
@@ -40,18 +41,17 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px; /* Smaller font size */
-    color: #555; /* Darker gray color */
+    font-size: 16px;
+    color: #333;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none; /* Ensure no underline in circles */
 }
 
 .circle span {
-    text-align: center; /* Ensure text stays centered */
+    text-align: center;
     line-height: 1.4;
-    text-decoration: none; /* Ensure no underline inside circles */
-    color: #555; /* Darker gray color for the text */
+    text-decoration: none;
+    color: #555; /* Darker gray color */
 }
 
 .circle:hover {
@@ -59,9 +59,9 @@ h1 {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Styling */
+/* Project Section Styling */
 .project-section {
-    margin-top: 100px;
+    margin-top: 150px; /* More space between circles and subtitles */
     padding-bottom: 50px;
 }
 
@@ -94,20 +94,22 @@ h2 {
     border-radius: 10px;
 }
 
+/* Adjust Button Styling */
 .project-button {
-    display: block; /* Make the button block level to stretch */
+    display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #555; /* Dark gray when not hovered */
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
     margin-top: 10px;
-    width: 100%; /* Button spans full width under the thumbnail */
+    width: 60%; /* Button shorter than the thumbnail */
+    text-align: center; /* Ensure text is centered */
 }
 
 .project-button:hover {
-    background-color: #5c7da1;
+    background-color: #007bff; /* Blue when hovered */
 }
 
 .project-content {
