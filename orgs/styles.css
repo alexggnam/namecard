@@ -83,11 +83,20 @@ h2 {
 
 .org-content h3 {
     font-size: 22px;
-    margin-bottom: 10px;
+    margin-bottom: 15px; /* More space between title and bullet points */
 }
 
 .blue-text {
     color: #105cb0; /* Blue color for 'President' */
+}
+
+.org-content a {
+    color: black; /* Make links black */
+    text-decoration: none; /* Remove underline */
+}
+
+.org-content a:hover {
+    color: #007bff; /* Hover effect similar to Projects */
 }
 
 .org-content ul {
@@ -141,8 +150,10 @@ h2 {
     background-color: #007bff;
 }
 
+/* Volunteer Content Styling */
 .org-content h3 {
     font-size: 22px;
+    text-align: left; /* Make title left-aligned like Projects page */
 }
 
 .org-content p {
