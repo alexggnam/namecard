@@ -19,14 +19,15 @@ h1 {
     font-size: 36px;
 }
 
-/* Circle Navigation */
+/* Add more space between title and circles */
 .circle-navigation {
-    margin: 30px 0;
+    margin-top: 60px; /* Increased space */
     display: flex;
     justify-content: center;
     gap: 40px;
 }
 
+/* Circle Navigation */
 .circle {
     width: 150px;
     height: 150px;
@@ -39,11 +40,14 @@ h1 {
     color: #333;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none; /* Remove underline */
 }
 
+/* Remove underline for the text inside circles */
 .circle span {
     text-align: center; /* Ensure text stays centered */
     line-height: 1.4;
+    text-decoration: none; /* Ensure no underline inside circles */
 }
 
 .circle:hover {
@@ -95,6 +99,7 @@ h2 {
     text-decoration: none;
     transition: background-color 0.3s ease;
     margin-top: 10px;
+    width: 100%; /* Button spans full width under the thumbnail */
 }
 
 .project-button:hover {
@@ -118,6 +123,23 @@ h2 {
     color: #777;
 }
 
+/* Featured Skills Styling */
+.featured-skills {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.featured-skills strong {
+    color: black;
+    font-weight: bold; /* Ensure "Featured Skills" is bold */
+}
+
+.featured-skills span {
+    color: #105cb0;
+    font-weight: normal; /* Ensure skills text is not bold */
+}
+
+/* Project block hover effect */
 .project-block:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
