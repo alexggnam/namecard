@@ -63,6 +63,7 @@ h1 {
 .project-section {
     margin-top: 150px; /* More space between circles and subtitles */
     padding-bottom: 50px;
+    padding-top: 80px; /* Add padding on top of each section for better scrolling */
 }
 
 h2 {
@@ -96,16 +97,18 @@ h2 {
 
 /* Adjust Button Styling */
 .project-button {
-    display: inline-block;
-    padding: 10px 20px;
+    display: block;
+    padding: 10px 0; /* Adjust padding for smaller height */
     background-color: #555; /* Dark gray when not hovered */
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
+    text-align: center; /* Center text */
     transition: background-color 0.3s ease;
     margin-top: 10px;
-    width: 60%; /* Button shorter than the thumbnail */
-    text-align: center; /* Ensure text is centered */
+    width: 70%; /* Set button width shorter than thumbnail */
+    margin-left: auto; /* Center button */
+    margin-right: auto; /* Center button */
 }
 
 .project-button:hover {
