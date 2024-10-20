@@ -1,1 +1,151 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
 
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 150px auto; /* Consistent with the Projects page */
+}
+
+/* Title Section */
+h1 {
+    margin-top: 100px; /* More space between the top of the page and the title */
+    font-size: 36px;
+}
+
+/* Circle Navigation */
+.circle-navigation {
+    margin-top: 120px; /* Consistent with Projects */
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+/* Circle Styling */
+.circle-navigation a {
+    text-decoration: none; /* Remove underline */
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #dce6fc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.circle span {
+    text-align: center;
+    line-height: 1.4;
+    text-decoration: none;
+    color: #555; /* Dark gray color */
+}
+
+.circle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Organization Section Styling */
+.organization-section {
+    margin-top: 150px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Leadership Block Styling */
+.org-block {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.org-content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.blue-text {
+    color: #105cb0; /* Blue color for 'President' */
+}
+
+.org-content ul {
+    list-style-type: disc;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.org-content ul li {
+    margin-bottom: 5px;
+}
+
+/* Volunteer Block Styling (Similar to Projects) */
+.volunteer-block {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail {
+    flex-basis: 30%;
+    text-align: left;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.org-button {
+    display: block;
+    padding: 10px 0;
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.org-button:hover {
+    background-color: #007bff;
+}
+
+.org-content h3 {
+    font-size: 22px;
+}
+
+.org-content p {
+    font-size: 16px;
+    color: #777;
+}
