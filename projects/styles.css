@@ -8,9 +8,10 @@ body {
     color: #333;
 }
 
+/* Add more space between the start of the page and the title */
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 80px auto; /* Added more top margin to move everything down the page */
 }
 
 /* Title Section */
@@ -19,9 +20,9 @@ h1 {
     font-size: 36px;
 }
 
-/* Add more space between title and circles */
+/* Add even more space between the title and the circles */
 .circle-navigation {
-    margin-top: 60px; /* Increased space */
+    margin-top: 80px; /* Increased space */
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -91,7 +92,7 @@ h2 {
 }
 
 .project-button {
-    display: inline-block;
+    display: block; /* Make the button block level to stretch */
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -135,7 +136,7 @@ h2 {
 }
 
 .featured-skills span {
-    color: #105cb0;
+    color: #105cb0; /* Ensure "blah blah blah" is blue */
     font-weight: normal; /* Ensure skills text is not bold */
 }
 
