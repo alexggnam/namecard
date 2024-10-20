@@ -41,7 +41,7 @@ h1 {
     justify-content: center;
     align-items: center;
     font-size: 16px; /* Smaller font size */
-    color: #333;
+    color: #555; /* Darker gray color */
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-decoration: none; /* Ensure no underline in circles */
@@ -51,6 +51,7 @@ h1 {
     text-align: center; /* Ensure text stays centered */
     line-height: 1.4;
     text-decoration: none; /* Ensure no underline inside circles */
+    color: #555; /* Darker gray color for the text */
 }
 
 .circle:hover {
