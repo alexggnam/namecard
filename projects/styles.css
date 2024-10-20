@@ -8,7 +8,6 @@ body {
     color: #333;
 }
 
-/* Add more space between the start of the page and the title */
 .container {
     width: 80%;
     margin: 80px auto; /* Added more top margin to move everything down the page */
@@ -29,6 +28,10 @@ h1 {
 }
 
 /* Circle Navigation */
+.circle-navigation a {
+    text-decoration: none; /* Remove underline from the anchor links */
+}
+
 .circle {
     width: 150px;
     height: 150px;
@@ -41,10 +44,9 @@ h1 {
     color: #333;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none; /* Ensure no underline in circles */
 }
 
-/* Remove underline for the text inside circles */
 .circle span {
     text-align: center; /* Ensure text stays centered */
     line-height: 1.4;
