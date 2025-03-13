@@ -163,6 +163,14 @@ html {
 .work-in-progress {
     background-color: #d9a500; /* Gold color to indicate ongoing work */
     font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width: 100%; /* Keep width consistent */
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .work-in-progress:hover {
