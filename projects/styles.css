@@ -158,3 +158,13 @@ h2 {
 html {
     scroll-behavior: smooth;
 }
+
+/* Work in Progress Button Styling */
+.work-in-progress {
+    background-color: #d9a500; /* Gold color to indicate ongoing work */
+    font-weight: bold;
+}
+
+.work-in-progress:hover {
+    background-color: #b8860b; /* Darker gold on hover */
+}
