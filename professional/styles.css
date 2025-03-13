@@ -1,1 +1,83 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
 
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 150px auto;
+}
+
+/* Title Section */
+h1 {
+    margin-top: 100px;
+    font-size: 36px;
+}
+
+/* Work Experience Block Styling */
+.work-block {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Work Block Hover Effect */
+.work-block:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Thumbnail Image */
+.thumbnail {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+/* Work Content */
+.work-content {
+    flex-basis: 75%;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.work-content h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.work-content p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #777;
+}
+
+.work-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.work-content ul li {
+    margin-bottom: 5px;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
